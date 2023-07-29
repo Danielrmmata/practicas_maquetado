@@ -10,45 +10,58 @@ div {
 .offer__container {
     background: rgb(225, 49, 49);
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .offer__pack {
-    text-align: center;
+
+    padding-top: 60px;
 }
 
 .offer__currency {
-    display: inline-block;
     font-size: 40px;
 }
 
 .offer__price {
-    display: inline-block;
     font-size: 150px;
-    text-align: center;
-    box-shadow: ;
 }
 
 .offer__product {
     text-align: center;
     font-size: 40px;
+    padding: 15px;
 }
 
 .offer__stickers {
     text-align: center;
+    padding: 10px;
 }
 
 .offer__delivery {
     text-align: center;
+    padding: 10px;
 }
 
 .offer__support {
     text-align: center;
+    padding: 10px;
+    padding-bottom: 60px;
 }
 
 .offer__footer {
     background: white;
+    padding: 15px;
+    width: 160px;
     color: black;
+    font-size: 25px;
     border-top-left-radius: 20px;
-    width: 100px;
-    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
 }
+
+@keyframes 
