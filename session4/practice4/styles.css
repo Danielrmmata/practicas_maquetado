@@ -7,26 +7,31 @@ div {
     color: white;
 }
 
-.offer__container {
+.offer__container:hover {
     background: rgb(225, 49, 49);
     border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 400px;
+    cursor: pointer;
+    animation-name: awesome__animation;
 }
 
 .offer__pack {
-
     padding-top: 60px;
+    text-align: center;
 }
 
 .offer__currency {
     font-size: 40px;
+    display: inline-block;
+    margin-left: 10px;
+    margin: none;
+    margin-left: 23%;
 }
 
 .offer__price {
     font-size: 150px;
+    display: inline-block;
+    margin: none;
 }
 
 .offer__product {
@@ -35,20 +40,12 @@ div {
     padding: 15px;
 }
 
-.offer__stickers {
+.pack__container {
     text-align: center;
-    padding: 10px;
 }
 
-.offer__delivery {
-    text-align: center;
+.awesome__plan {
     padding: 10px;
-}
-
-.offer__support {
-    text-align: center;
-    padding: 10px;
-    padding-bottom: 60px;
 }
 
 .offer__footer {
@@ -58,10 +55,15 @@ div {
     color: black;
     font-size: 25px;
     border-top-left-radius: 20px;
-    display: flex;
-    align-self: flex-end;
-    justify-content: center;
-    align-items: center;
+    margin-top: 50px;
+    margin-left: 53%;
 }
 
-@keyframes 
+@keyframes awesome__animation {
+    0% {
+        width: 160px;
+    }
+    100% {
+        width: 200px;
+    }
+}
