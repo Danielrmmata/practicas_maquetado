@@ -5,9 +5,10 @@
 
 div {
     color: white;
+    text-shadow: 1px 1px 2px black;
 }
 
-.offer__container:hover {
+.offer__container {
     background: rgb(225, 49, 49);
     border-radius: 20px;
     width: 400px;
@@ -26,6 +27,7 @@ div {
     margin-left: 10px;
     margin: none;
     margin-left: 23%;
+    
 }
 
 .offer__price {
@@ -63,6 +65,15 @@ div {
     0% {
         width: 160px;
     }
+    25% {
+        width: 170px;
+    }
+    50% {
+        width: 180px;
+    }
+        75% {
+        width: 190px;
+        }
     100% {
         width: 200px;
     }
