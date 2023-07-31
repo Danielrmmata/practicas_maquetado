@@ -34,6 +34,7 @@ div {
     font-size: 150px;
     display: inline-block;
     margin: none;
+    z-index: 2;
 }
 
 .offer__product {
@@ -61,20 +62,7 @@ div {
     margin-left: 53%;
 }
 
-@keyframes awesome__animation {
-    0% {
-        width: 160px;
-    }
-    25% {
-        width: 170px;
-    }
-    50% {
-        width: 180px;
-    }
-        75% {
-        width: 190px;
-        }
-    100% {
-        width: 200px;
-    }
+.offer__container:hover {
+    transform:scale(1.1);
 }
+
