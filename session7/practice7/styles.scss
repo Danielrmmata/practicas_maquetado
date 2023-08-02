@@ -1,0 +1,43 @@
+.header__container {
+    background-color: white;
+    color: black;
+    height: 100px;
+    display: flex;
+    padding: none;
+    border: none;
+}
+
+.header__logo {
+    display: flex;
+    width: 88px;
+    height: 44px;
+}
+
+.header__menu {
+    display: flex;
+    width: 397px;
+    height: 32px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.header__buttons {
+    display: flex;
+    list-style: none;
+    padding: none;
+    border: none;
+}
+
+.header-button__contact {
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+.header-button__cart {
+    display: flex;
+    width: 47px;
+    height: 37px;
+    border: none;
+    padding: none;
+}
