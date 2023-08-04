@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color: hotpink;
+}
+
+p {
+  color: purple;
+}
+
+.example__text {
+  color: rgba(146, 0, 0, 0.782);
+}
+
+.span__text {
+  color: rgba(146, 0, 0, 0.782);
+}
+
+.div__text {
+  color: rgba(146, 0, 0, 0.782);
+}
+
+.golden__container .golden__text {
+  color: gold;
+}
+.golden__container .golden-button__shop {
+  border: none;
+  background-color: gold;
+  width: 110px;
+  height: 45px;
+  color: white;
+  border-radius: 15px;
+}
+.golden__container .golden-button__shop:hover {
+  background-color: rgba(146, 0, 0, 0.782);
+  cursor: pointer;
+}
+
+.buttons__container .button__item {
+  width: 110px;
+  height: 45px;
+  border: none;
+  background-color: green;
+  color: aqua;
+  border-radius: 15 px;
+}
+
+.action__container .action__item {
+  width: 110px;
+  height: 45px;
+  border: none;
+  background-color: blue;
+  color: aqua;
+  border-radius: 15 px;
+}/*# sourceMappingURL=styles.css.map */

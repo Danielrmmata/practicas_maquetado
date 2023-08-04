@@ -1,0 +1,67 @@
+// @import 'spring';
+@import 'xmas';
+
+@mixin standard-button($button-color: green) {
+    width: 110px;
+    height: 45px;
+    border: none;
+    background-color: $button-color;
+    color: aqua;
+    border-radius: 15 px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: hotpink;
+}
+
+p {
+    color: purple;
+}
+
+.example__text {
+    color: $primary-color;
+}
+
+.span__text {
+    color: $primary-color;
+}
+
+.div__text {
+    color: $primary-color;
+}
+
+.golden__container {
+    .golden__text {
+        color: $golden-xmas;
+    }
+    .golden-button__shop {
+        border: none;
+        background-color: $golden-xmas;
+        width: 110px;
+        height: 45px;
+        color: white;
+        border-radius: 15px;
+        &:hover {
+            background-color: $primary-color;
+            cursor: pointer;
+        }
+    }
+}
+
+.buttons__container {
+    .button__item {
+        @include standard-button();
+    }
+}
+
+.action__container {
+    .action__item {
+        @include standard-button(blue);
+    }
+}
