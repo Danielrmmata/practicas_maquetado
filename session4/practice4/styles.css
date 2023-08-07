@@ -10,6 +10,7 @@ div {
 }
 
 .offer__first-container {
+    margin: 10px;
     display: inline-block;
     background: rgb(108, 138, 237);
     border-radius: 20px;
@@ -18,7 +19,7 @@ div {
 
     .offer__pack {
         position: relative;
-        left: 86px;
+        left: 85px;
         top: -30px;
     }
 
@@ -40,14 +41,17 @@ div {
         position: relative;
         font-size: 20px;
         top: 90px;
-        left: -75px;
+        left: -78px;
     }
 
     .pack__container {
+        color: white;
+        text-shadow: 1px 1px 2px black;
         font-size: 17px;
         position: relative;
         top: 85px;
-        text-align: center;
+        left: 15px;
+        list-style: none;
     }
 
     .awesome__plan {
@@ -61,7 +65,7 @@ div {
         height: 45px;        
         border-top-left-radius: 20px;
         position: relative;
-        top: 123px;
+        top: 119px;
         left: 85px;
 
         .offer-footer__text {
@@ -75,7 +79,215 @@ div {
 }
 
 
-
 .offer__second-container {
+    margin: 10px;
     display: inline-block;
+    background: rgb(219, 69, 69);
+    border-radius: 20px;
+    width: 250px;
+    height: 400px;
+    position: relative;
+    top: 73px;
+
+    .offer__pack {
+        position: relative;
+        top: -70px;
+        left: 88px;
+        
+    }
+
+    .offer__currency {
+        font-size: 25px;
+        position: relative;
+        top: 38px;
+        left: -29px;
+        
+    }
+
+    .offer__price {
+        font-size: 115px;
+        position: relative;
+        top: 40px;
+        left: -38px;
+    }
+
+    .offer__product {
+        position: relative;
+        font-size: 20px;
+        top: 30px;
+        left: 101px;
+    }
+
+    .pack__container {
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        font-size: 17px;
+        position: relative;
+        top: 32px;
+        left: 39px;
+        list-style: none;
+    }
+
+    .basic__plan {
+    padding: 5px;
+    }
+
+    .offer__second-footer {
+        cursor: pointer;
+        background: white;
+        width: 135px;
+        height: 45px;        
+        border-top-left-radius: 20px;
+        position: relative;
+        top: 75px;
+        left: 115px;
+
+        .offer-second__text {
+            position: relative;
+            top: 10px;
+            left: 20px;
+            color: black;
+            font-size: 17px;
+        }
+    }
+}
+
+
+.offer__third-container {
+    margin: 10px;
+    display: inline-block;
+    background: rgb(20, 213, 56);
+    border-radius: 20px;
+    width: 220px;
+    height: 370px;
+    position: relative;
+    top: 27px;
+
+    .offer__pack {
+        position: relative;
+        top: 31px;
+        left: 73px;
+        
+    }
+
+    .offer__currency {
+        font-size: 20px;
+        position: relative;
+        top: 114px;
+        left: -52px;
+        
+    }
+
+    .offer__price {
+        font-size: 80px;
+        position: relative;
+        top: 24px;
+        left: 38px;
+    }
+
+    .offer__product {
+        position: relative;
+        font-size: 20px;
+        top: 64px;
+        left: -59px;
+    }
+
+    .pack__container {
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        font-size: 17px;
+        position: relative;
+        top: 56px;
+        left: 15px;
+        list-style: none;
+    }
+
+    .premium__plan {
+    padding: 0px;
+    }
+
+    .offer__footer {
+        cursor: pointer;
+        background: white;
+        width: 135px;
+        height: 45px;        
+        border-top-left-radius: 20px;
+        position: relative;
+        top: 92px;
+        left: 85px;
+
+        
+
+        .offer-footer__text {
+            position: relative;
+            top: 10px;
+            left: 20px;
+            color: black;
+            font-size: 17px;
+        }
+    }
+}
+
+.offer__first-container:hover {
+    transform: scale(1.01);
+}
+
+.offer__second-container:hover {
+    transform: scale(1.01);
+}
+
+.offer__third-container:hover {
+    transform: scale(1.01);
+}
+
+.offer__footer:hover {
+        animation-name: subscribe__animation;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+}
+
+.offer-footer__text:hover {
+    animation-name: subscribe-text__animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.offer__second-footer:hover {
+        animation-name: subscribe-second__animation;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+}
+
+
+.offer-second__text:hover {
+    animation-name: subscribe-second-text__animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes subscribe__animation {
+      100% {
+        left: -18px;
+        width: 239px;
+    }
+}
+
+@keyframes subscribe-text__animation {
+    100% {
+        left: 90px;
+    }
+}
+
+@keyframes subscribe-second__animation {
+    100% {
+        left: -16px;
+        width: 267px;
+    }
+}
+
+
+@keyframes subscribe-second-text__animation {
+    100% {
+        left: 107px;
+    }
 }
