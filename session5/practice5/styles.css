@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(123, 0, 184, 0.825);
+    z-index: 0;
+    width: 375px;
+    height: 373px;
+}
+
+.body__mobile-background {
+    position: relative;
+    z-index: 0;
+}
+
+.body__desktop-background{
+    display: none;
+}
+
+.header__container {
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 30px;
+}
+
+.header__logo {
+    width: 125px;
+}
+
+.main__image {
+    width: 309px;
+    position: absolute;
+    z-index: 2;
+    top: 120px;
+    left: 30px;
+}
+
+.title__container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    margin-left: 70px;
+    color: white;
+}
+
+.main__title-1 {
+    margin: 0px;
+}
+
+.main__title-2 {
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.main__info {
+    width: 361px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.main__register-button {
+    border: none;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    color:  rgba(123, 0, 184, 0.825);
+    margin-left: 81px;
+}
+
+.footer__social {
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.footer__social-item {
+    display: inline-block;
+}
+
+@media only screen and (min-width: 376px) {
+
+    .body__mobile-background {
+        display: none;
+    }
+
+    .body__desktop-background {
+        display: block;
+    }
+
+    .main__image {
+        width: auto;
+        display: inline-block;
+    }
+
+    .info__container {
+        display: inline-block;
+        position: relative;
+        top: -625px;
+        left: 800px;
+
+        .main__title-1 {
+            font-size: 30px;
+        }
+
+        .main__title-2 {
+            font-size: 30px;
+        }
+
+        .main__info {
+            margin-left: 75px;
+        }
+
+        .main__register-button {
+            margin-left: 155px;
+        }
+    }
+
+    .footer__container {
+    
+        .footer__social {
+            width: 1300px;
+            margin-left: 1085px;
+            margin-top: -340px;
+        }
+    }
+}
