@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 320px;
+    height: 4941px;
+}
+
+.header__container {
+
+    .header__logo {
+        width: 88px;
+        height: 44px;
+        padding: 0px;
+        margin: 0px;
+        position: relative;
+        top: 32px;
+        left: 15.55px
+    }
+}
+
+    .div__header-cart {
+
+        .header__cart {
+            width: 35px;
+            height: 35px;
+            position: relative;
+            top: -10px;
+            left: 266.55px;
+    }
+
+    .header__cart-item {
+        width: 24px;
+        height: 17px;
+        position: relative;
+        top: -31px;
+        left: 249.55px;
+    }
+}
+
+.title__slogan {
+    color: #858585;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.title__name {
+   display: flex;
+   justify-content: center;
+   margin-top: 27px;
+}
+
+.button__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+@mixin black-button {
+    width: 129px;
+    height: 32px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+@mixin white-button {
+    width: 129px;
+    height: 32px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-button__black {
+    @include black-button()
+}
+
+.title-button__white {
+    @include white-button();
+}
+
+.div-title__blackpiano {
+    width: 251.69px;
+    height: 194px;
+    margin-left: 10px;
+}
+
+.div-promo__pt1 {
+    width: 288px;
+    height: 263.31px;
+    margin-top: 100px;
+}
+
+.promo__title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -312px;
+}
+
+.div-promo__bg {
+    opacity: 0.4;    
+}
+
+.div-promo__image {
+    position: relative;
+    top: -335px;
+    left: 15px;
+}
+
+.div-promo__pt2 {
+    width: 320px;
+    height: 397px;
+    background-color: rgb(71, 71, 71);
+    margin-top: 45px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo-piano__model {
+    
+    position: relative;
+    top: 30px;
+}
+
+.promo__piano__rate {
+    margin-top: 28px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.promo__piano__price {
+    margin: 0;
+
+}
+
+.promo__piano__description {
+    margin: 0;
+    margin-top: 20px;
+    color: rgba(252, 252, 252, 0.365)c7;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.promo__piano-features {
+    width: 228px;
+    height: 14px;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo__piano__item-new {
+    list-style-type: none;
+}
+
+.promo-piano__buy {
+    @include black-button();
+}

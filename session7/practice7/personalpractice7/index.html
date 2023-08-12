@@ -9,52 +9,61 @@
 <body>
     <header class="header__container">
 
-            <img src="./images/complete_ logo_pazioli.svg" alt="logo_pazioli">
+            <img class="header__logo" src="./images/complete_ logo_pazioli.svg" alt="logo_pazioli">
 
-            <img src="./images/header__cart.svg" alt="">
+            <div class="div__header-cart">
+                <img class="header__cart" src="./images/header__cart.svg" alt="header_cart">
+                <img class="header__cart-item" src="./images/header__cart-item.svg" alt="buy-item">
+            </div>
+
     </header>
 
     <p class="title__slogan">
         The art of playing the piano
     </p>
 
-    <p class="title__name">
+    <h1 class="title__name">
         Pazioli institute
-    </p>
+    </h1>
 
-    <button class="title-button-black">
-        See courses
-    </button>
-
-    <button class="title-button-white">
-        Buy piano
-    </button>
-
+    <ul class="button__list">
+        <li class="button-list__item">
+            <button class="title-button__black">
+                See courses
+            </button>
+        </li>
+            <li class="button-list__item">
+            <button class="title-button__white">
+                Buy piano
+            </button>
+        </li>
+    </ul>
     <div class="div-title__blackpiano">
-        <img src="/images/title__black-piano.svg" alt="">
+        <img class="black-piano__image" src="/images/title__black-piano.svg" alt="">
     </div>
 
     <section class="section__promo">
 
         <div class="div-promo__pt1">
-            <p class="section-promo__title">
+            <img src="./images/bg-playing-piano.svg" alt="" class="div-promo__bg">
+            <h3 class="promo__title">
                 Meet our new model in class
-            </p>
-            <img src="./images/promo__piano.svg" alt="">
+            </h3>
+            <img class="div-promo__image" src="./images/promo__piano.svg" alt="">
         </div>
 
         <div class="div-promo__pt2">
-            <p class="promo__piano__model">
+            <h2 class="promo-piano__model">
                 New Ebony F228
-            </p>
+            </h2>
 
             <p class="promo__piano__rate">
                 Rate: ⭐⭐⭐⭐⭐
             </p>
 
-            <p class="promo__piano__price">
+            <h2 class="promo__piano__price">
                 From: $110,000.00
-            </p>
+            </h2>
             <p class="promo__piano__description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam animi molestiae, consectetur maiores in at consequuntur culpa maxime sapiente quo commodi ea perferendis accusantium quas dolorum odio exercitationem harum consequatur.
             </p>
@@ -72,7 +81,7 @@
                     M. Cedar
                 </li>
             </ul>
-            <button class="promo__piano__buy">
+            <button class="promo-piano__buy">
                 Add yo cart
             </button>
         </div>      
