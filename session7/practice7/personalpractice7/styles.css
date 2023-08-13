@@ -54,6 +54,8 @@ body {
 .title-button__black {
   width: 129px;
   height: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
   background-color: black;
   color: white;
   border-radius: 8px;
@@ -66,6 +68,8 @@ body {
 .title-button__white {
   width: 129px;
   height: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
   background-color: white;
   border-radius: 8px;
   border: 1px;
@@ -114,15 +118,17 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: 1px;
 }
 
 .promo-piano__model {
   position: relative;
-  top: 30px;
+  top: -20px;
 }
 
 .promo__piano__rate {
-  margin-top: 28px;
+  margin-top: -27px;
+  margin-bottom: 12px;
   font-size: 13px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -132,9 +138,9 @@ body {
 }
 
 .promo__piano__description {
+  color: rgb(226, 226, 226);
   margin: 0;
-  margin-top: 20px;
-  color: rgba(252, 252, 252, 0.365) c7;
+  margin-top: 15px;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -146,15 +152,21 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   justify-content: space-between;
+  margin-top: 17px;
+  margin-bottom: 15px;
 }
 
 .promo__piano__item-new {
-  list-style-type: none;
+  list-style: none;
 }
 
 .promo-piano__buy {
-  width: 129px;
+  width: 228px;
   height: 32px;
+  display: flex;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
   background-color: black;
   color: white;
   border-radius: 8px;
@@ -162,4 +174,40 @@ body {
   align-items: center;
   justify-content: center;
   border: none;
+}
+
+.article-list__section {
+  width: 320px;
+  height: 1356px;
+  text-align: center;
+}
+
+.article-list__white-piano {
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 40px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.article-list__golden-piano {
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 40px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.article-list__brown-piano {
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 40px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }/*# sourceMappingURL=styles.css.map */
