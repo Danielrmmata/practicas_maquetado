@@ -191,6 +191,26 @@ body {
     text-align: center;
 }
 
+.article-list__model {
+    text-align: start;
+}
+
+.article__piano-features {
+    width: 226px;
+    height: 110px;
+    border-radius: 8px;
+    display: flex;
+    margin-top: -10px;
+}
+
+li span {
+    font-size: 15px;
+    position: relative;
+    left: -16px;
+    margin-left: 10px;
+}
+
+
 @mixin catalog__card {
     width: 250px;
     height: 350px;
@@ -203,7 +223,7 @@ body {
 
 @mixin catalog__piano {
     width: 205px;
-    height: 165.86px
+    height: 165.86px;    
 }
 
 .article-list__white-piano {
