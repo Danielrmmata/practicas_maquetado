@@ -1,0 +1,62 @@
+Who is the user?
+ Age: 25-30 years old.
+ Name: Karen.
+ From: City.
+ Features: Have dogs, pedigree or not, mate her dog.
+
+How she thinks she can solve it?
+ Go to the street/park.
+
+How she feel about her need?
+ Worried, sad.
+
+What she express about her need?
+ She doesn't know people with dogs he likes.
+ 
+
+What actions could solve her problem?
+ Social network for dogs.
+ Meet people with dogs with the same needs.
+
+
+Necesidades urgentes:
+app/mobile first
+
+perfil:
+ foto
+ nombre
+ edad
+ residencia
+ descripción
+
+Match.
+ Mensajes privados al match.
+
+
+
+
+desktop
+hoteles para perros
+sección de eventos
+parques pet friendly
+escuelas
+sección de extraviados
+sección de adopción
+ligado con gps del perro
+en tiempo real
+alertas de Roba perros
+características de perfil secundario
+ raza, tamaño.
+ carnet básico
+ reputación
+ residencia
+ subir documento de certificación
+ contacto de veterinarios para emergencias o no
+hoteles para perros
+parques pet friendly
+escuelas
+sección de extraviados
+sección de adopción
+ligado con gps del perro
+en tiempo real
+alertas de Roba perros

@@ -2,7 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   width: 320px;
-  height: 4941px;
+  height: 4887px;
 }
 
 .header__container .header__logo {
@@ -47,8 +47,9 @@ body {
 .button__list {
   list-style: none;
   display: flex;
-  justify-content: center;
   justify-content: space-between;
+  position: relative;
+  left: -18px;
 }
 
 .title-button__black {
@@ -201,9 +202,21 @@ body {
   left: 20px;
 }
 
+.article__line {
+  position: relative;
+  width: 232px;
+  border: 1px dashed;
+  top: 22px;
+  left: 0px;
+  color: #DBDBDB;
+  display: flex;
+}
+
 .article-list__model {
   text-align: start;
   margin-left: 10px;
+  position: relative;
+  top: 10px;
 }
 
 .article__piano-features {
@@ -226,7 +239,7 @@ body {
   width: 161px;
   height: 36px;
   border: 1px;
-  color: black;
+  border-color: black;
   border-radius: 8px;
   display: flex;
   position: relative;
@@ -287,20 +300,260 @@ body {
   height: 32px;
   display: flex;
   flex-wrap: nowrap;
+  flex-direction: column;
 }
 
 .contact-us__title {
+  width: 200px;
   position: relative;
-  left: -200px;
+  left: -212px;
   top: 10px;
   display: flex;
   flex-wrap: nowrap;
+  flex-direction: column;
 }
 
-.contact-us__description {
+.div-contact-us__description {
   width: 288px;
   height: 114px;
   position: relative;
-  left: -285px;
+  top: 70px;
+  left: -455px;
+  text-align: center;
+}
+
+.contact-us__description {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 288px;
+  height: 114px;
+  font-size: 16px;
+}
+
+.contact-us__info-name {
+  left: -735px;
+  top: 195px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  position: relative;
+}
+
+.contact-us-name__input {
+  width: 271px;
+  height: 36px;
+  left: -785px;
+  top: 250px;
+  background-color: black;
+  opacity: 0.7;
+  position: relative;
+  border: black;
+}
+
+.div__input {
+  width: 271px;
+  height: 36px;
+}
+
+.contact-us__info-phone {
+  left: -1061px;
+  top: 293px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  position: relative;
+}
+
+.contact-us-phone__input {
+  top: 345px;
+  left: -1113px;
+  background-color: black;
+  opacity: 0.7;
+  position: relative;
+  border: black;
+  width: 271px;
+  height: 36px;
+}
+
+.contact-us__info-email {
+  left: -1387px;
+  top: 387px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  position: relative;
+}
+
+.contact-us-email__input {
+  top: 443px;
+  left: -1432px;
+  background-color: black;
+  opacity: 0.7;
+  position: relative;
+  border: black;
+  width: 271px;
+  height: 36px;
+}
+
+.contact-us__info-tell {
+  width: 200px;
+  left: -1706px;
+  top: 488px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  position: relative;
+}
+
+.div__input-tell {
+  width: 288px;
+  height: 148px;
+}
+
+.contact-us-tell__input {
+  width: 271px;
+  height: 148px;
+  top: 545px;
+  left: -1903px;
+  background-color: black;
+  opacity: 0.7;
+  position: relative;
+  border: black;
+}
+
+.div__contact-btn {
+  width: 271px;
+  height: 32px;
+}
+
+.contact-us__button {
+  position: relative;
+  top: 740px;
+  left: -2188px;
+  width: 288px;
+  height: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.partner__section {
+  width: 320px;
+  height: 548px;
+  text-align: center;
+  background-color: #858585;
+}
+
+.partner__img {
+  margin-top: 25px;
+}
+
+.footer__container {
+  width: 320px;
+  height: 803px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #858585;
+}
+
+.footer__logo {
+  width: 133px;
+  height: 116px;
+  position: relative;
+  top: 20px;
+}
+
+.social__list {
+  width: 138.67px;
+  height: 32px;
+  display: flex;
+  list-style: none;
+  position: relative;
+  top: 50px;
+  left: -90px;
+  align-items: center;
+}
+
+.social-list__item-bf {
+  display: flex;
+  position: relative;
+  top: 1px;
+  left: 36px;
+}
+
+.social-list__item {
+  margin-left: 20px;
+}
+
+.us__title {
+  font-size: 14px;
+  font-weight: bolder;
+  position: relative;
+  top: 50px;
+}
+
+.us__menu {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  list-style: none;
+  position: relative;
+  top: 40px;
+  left: -19px;
+  text-align: center;
+}
+
+.us-menu__item {
+  margin-bottom: 15px;
+}
+
+.contact-us__footer-title {
+  font-size: 14px;
+  font-weight: bolder;
+  position: relative;
+  top: 20px;
+}
+
+.contact-us__country {
+  margin-top: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.contact-us__adress-pt1 {
+  margin-top: -10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.contact-us__adress-pt2 {
+  margin-top: -10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer__copyright {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.footer__dev-pt1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer__dev-pt2 {
+  margin-top: -10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
   text-align: center;
 }/*# sourceMappingURL=styles.css.map */
