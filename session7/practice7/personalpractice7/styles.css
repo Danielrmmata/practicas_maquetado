@@ -2,7 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   width: 320px;
-  height: 4887px;
+  height: 4865px;
 }
 
 .header__container .header__logo {
@@ -94,9 +94,9 @@ body {
 
 .promo__title {
   display: flex;
-  justify-content: center;
   position: relative;
   top: -312px;
+  left: 53px;
 }
 
 .div-promo__bg {
@@ -443,6 +443,8 @@ body {
 }
 
 .partner__section {
+  position: relative;
+  top: -20px;
   width: 320px;
   height: 548px;
   text-align: center;
@@ -454,6 +456,8 @@ body {
 }
 
 .footer__container {
+  position: relative;
+  top: -21px;
   width: 320px;
   height: 803px;
   display: flex;
